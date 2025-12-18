@@ -92,6 +92,11 @@ This example demonstrates approximate pattern matching where the pattern is dete
 The algorithms implemented here use brute-force and neighborhood-based approaches. While effective for small to moderate input sizes, these methods may become computationally expensive for large genomes. Optimization strategies such as bit-parallel methods or suffix-based data structures could be explored in future work.
 
 ---
+
+## Repository Structure
+
+```python
+
 Approximate-Pattern-Matching/
 ├── README.md
 ├── LICENSE
@@ -105,6 +110,9 @@ Approximate-Pattern-Matching/
 └── src/
     ├── approx_pattern_matching.py
     └── approx_pattern_count.py
+
+```
+
 ---
 
 ## Notes
